@@ -1,0 +1,10 @@
+openai:
+  embedding_model: text-embedding-3-small
+  chat_model: gpt-4o-mini
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 100
+
+retriever:
+  k: 4
